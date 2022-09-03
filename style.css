@@ -1,0 +1,338 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+.Logo img{
+    width: 182px;
+    height: 141px;
+}
+.Logo{
+    float: left;
+
+}
+.nav{
+    float: left;
+    margin-left: 27%;
+    margin-top: 3%;
+    width: 500px;
+}
+.nav ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    margin-right: 1.5px;
+}
+.nav ul li a{
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.Buttons{
+    margin-top: 3%;
+    margin-right: 3%;
+    float: right;
+}
+.Signup button, .login  button{
+    border-radius: 50px;
+    border: 2px solid black;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+.Signup button:hover, .login button:hover{
+    color: white;
+    background-color: black;
+}
+.Signup, .login{
+    display: inline;
+}
+.Home{
+    clear: both;
+}
+.Home_text{
+    display: flex;
+    justify-content:space-around;
+}
+.Home_text h1{
+    background-color: #C12020;
+    width: 500px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-left: -8%;
+}
+.Home_text p{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+}
+
+.block_1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.Home_img{
+    flex: 1 1 60rem;
+    -ms-flex: 1 1 60rem;
+    max-width: 60%;
+}
+
+.Home_side{
+    background-color: #FAE98F;
+    border-radius: 30px;
+    flex: 1 1 50rem;
+    -ms-flex: 1 1 50rem;
+    max-width: 40%;
+    min-height: 30%;
+}
+
+.Home_side h2{
+    margin-top:40px;
+    text-align: center;
+}
+
+.Home_side img{
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.img_homeside{
+    text-align: center;
+}
+.Home_side p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 11px 0;
+}
+
+.homesidetext{
+    margin: 40px 150px ;
+}
+
+.Home_side a{
+    color: #C12020;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 100px;
+}
+
+.Home_side a:hover{
+    color: #C12020;
+    text-decoration:underline;
+}
+
+
+.About_Us{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.AboutUs_Content{
+    display: flex;
+    background-color: #FAE98F;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    width: 800px;
+}
+
+.AboutUs_Content p{
+    text-align: center;
+    padding: 1.5em;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
+.AboutUs_img img{
+    position: relative;
+}
+
+.AboutUs_Side h1{
+    background-color: #C12020;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-left: 2%;
+    font-family: 'Playfair Display', serif;
+}
+
+.img1{
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    top: -1em;
+    left: 29em;
+    border-radius: 50px;
+    z-index: 2;
+}
+
+.img2{
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    top: 4em;
+    right: 15em;
+    border-radius: 50px;
+}
+.img3{
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    top: 0em;
+    right: -15em;
+    border-radius: 50px;
+}
+
+.menutext h1{
+    background-color: #C12020;
+    width: 600px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-left: -8%;
+}
+.menutext{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.Products{
+    display: flex;
+    justify-content: space-between;
+}
+.pasta1{
+    margin-left: 80px ;
+}
+.pasta2{
+    margin-right: 80px ;
+}
+.Product img{
+    height: 500px;
+}
+.Product_text{
+    background-color: #C12020;
+    width: 500px;
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+}
+
+.Product_text h3{
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    padding: 30px 0px ;
+}
+
+.Product_text p{
+    color: #FAE98F;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+
+.Product_text h4{
+    color: white;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    padding: 0px 60px;
+}
+
+.More_Menu{
+    background-color: black;
+    text-align: center;
+    border-radius: 15px;
+    margin: 5px 50px;
+    padding: 10px 0px;
+}
+.More_Menu a{
+    color: white;
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+
+}
+.More_Menu a:hover{
+    text-decoration: none;
+    color:#C12020;
+
+}
+
+footer{
+    background-color: #725E46;
+    padding-top: 20px;
+    padding-left: 10px;
+
+}
+footer h3{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-weight: 600;
+}
+
+.Pay{
+    background-color: #DDDDDD;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    margin-right: 30px;
+    border-radius: 30px;
+}
+.Pay h4{
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    padding: 10px 50px;
+    
+}
+.checkout{
+    display: flex;
+    justify-content: flex-end;
+}
+.checkout img{
+    height: 200px;
+}
+.checkout button{
+    border-radius: 70px;
+    height: 60px;
+    position: relative;
+    top: 100px;
+    right: 300px;
+    cursor: pointer;
+}
+.checkout button p{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin:0px 20px ;
+}
+.footer{
+    display: flex;
+    align-items: center;
+}
+.footer h3{
+    padding-left: 80px;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    text-align: center;
+}
+
